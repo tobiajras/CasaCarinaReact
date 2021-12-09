@@ -5,7 +5,6 @@ import {
    BrowserRouter as Router,
    Routes,
    Route,
-   Link
   } from 'react-router-dom';
 import Inicio from './pages/Inicio/Inicio'
 import Nosotros from './pages/Nosotros/Nosotros'
