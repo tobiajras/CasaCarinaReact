@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {NavLink} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 import {MenuItems} from './MenuItems';
 import './Navbar.css'
 
@@ -12,7 +12,12 @@ class Navbar extends Component {
     render() {
         return(
             <nav className="NavbarItems">
-                   
+                <Link to="/">
+                    <img className="navbar-logo" src="../../assets/LogoCasaCarina.svg" alt=""/>
+                </Link>
+                <Link to="/" className="navbar-a">
+                    <h1 className="navbar-h1">Casa Carina</h1>
+                </Link>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
 
