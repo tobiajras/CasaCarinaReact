@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Link, NavLink} from 'react-router-dom';
 import {MenuItems} from './MenuItems';
 import './Navbar.css'
+import navLogo from '../../assets/LogoCasaCarina.svg'
 
 class Navbar extends Component {
     state = {clicked: false}
@@ -13,7 +14,7 @@ class Navbar extends Component {
         return(
             <nav className="NavbarItems">
                 <Link to="/">
-                    <img className="navbar-logo" src="../../assets/LogoCasaCarina.svg" alt=""/>
+                    <img className="navbar-logo" src={navLogo} alt="adsad"/>
                 </Link>
                 <Link to="/" className="navbar-a">
                     <h1 className="navbar-h1">Casa Carina</h1>

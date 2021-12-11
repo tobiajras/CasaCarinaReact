@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .NavbarItems {
     background: #1f263f;
     height: 80px;
@@ -5,6 +11,7 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    z-index: 10;
 }
 
 .navbar-a {
@@ -16,6 +23,7 @@
 }
 
 .navbar-h1 {
+    margin: 0;
     margin-left: 16px;
     font-family: 'Merienda', cursive;
     color: #fff;
@@ -35,6 +43,7 @@
     text-align: center;
     width: 70vw;
     justify-content: end;
+    margin: 0;
     margin-right: 2rem;
 }
 
@@ -46,6 +55,7 @@
 
 .nav-links:hover {
     background-color: #6d76f7;
+    color: #fff;
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
@@ -92,6 +102,7 @@
         transition: all 0.5s ease;
         z-index: 1;
         border-radius: 0;
+        padding: 0;
     }
 
     .nav-links {

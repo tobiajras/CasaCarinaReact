@@ -1,10 +1,11 @@
-import React from 'react'
-
+import React from 'react';
+import Carousel from '../../components/Carousel/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Inicio() {
     return (
         <div>
-          <h1>PAGINA DE INICIO</h1>
+          <Carousel/>
         </div>
     )
 }
