@@ -8,7 +8,7 @@ import image4 from '../../assets/fondoMallas.jpg';
 
 const CarouselContainer = () => {
   return(
-    <Carousel pause={false} dark={true}>
+    <Carousel pause={false}>
   <Carousel.Item interval={2000}>
     <img
       className="d-block w-100"
