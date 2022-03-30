@@ -8,9 +8,10 @@ import image4 from '../../assets/fondoMallas.jpg';
 
 const CarouselContainer = () => {
   return(
-    <Carousel pause={false}>
+    <Carousel pause={false} controls={false} indicators={false}>
   <Carousel.Item interval={2000}>
     <img
+      height={"100%"}
       className="d-block w-100"
       src={image1}
       alt="First slide"
@@ -21,6 +22,7 @@ const CarouselContainer = () => {
 
   <Carousel.Item interval={2000}>
     <img
+      height={"100%"}
       className="d-block w-100"
       src={image2}
       alt="Second slide"
@@ -31,6 +33,7 @@ const CarouselContainer = () => {
 
   <Carousel.Item interval={2000}>
     <img
+      height={"100%"}
       className="d-block w-100"
       src={image3}
       alt="Third slide"

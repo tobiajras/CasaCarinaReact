@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d3cd8ea7.chunk.css",
+    "main.js": "/static/js/main.05d49bfe.chunk.js",
+    "main.js.map": "/static/js/main.05d49bfe.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.83d8547e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.83d8547e.js.map",
+    "static/css/2.383c0125.chunk.css": "/static/css/2.383c0125.chunk.css",
+    "static/js/2.f8aab5a5.chunk.js": "/static/js/2.f8aab5a5.chunk.js",
+    "static/js/2.f8aab5a5.chunk.js.map": "/static/js/2.f8aab5a5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.d3cd8ea7.chunk.css.map": "/static/css/main.d3cd8ea7.chunk.css.map",
+    "static/js/2.f8aab5a5.chunk.js.LICENSE.txt": "/static/js/2.f8aab5a5.chunk.js.LICENSE.txt",
+    "static/media/LogoCasaCarina.7c207d82.svg": "/static/media/LogoCasaCarina.7c207d82.svg",
+    "static/media/fondoArena.f83b4ba6.jpg": "/static/media/fondoArena.f83b4ba6.jpg",
+    "static/media/fondoLadrillos.d59952e4.jpg": "/static/media/fondoLadrillos.d59952e4.jpg",
+    "static/media/fondoMallas.b7fa6cf3.jpg": "/static/media/fondoMallas.b7fa6cf3.jpg",
+    "static/media/fondoPiedra.2496b60e.jpg": "/static/media/fondoPiedra.2496b60e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83d8547e.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.f8aab5a5.chunk.js",
+    "static/css/main.d3cd8ea7.chunk.css",
+    "static/js/main.05d49bfe.chunk.js"
+  ]
+}
